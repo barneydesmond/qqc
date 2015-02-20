@@ -1,0 +1,8 @@
+AddHandler	wsgi-script	.py
+AddHandler	wsgi-script	.pyc
+
+AuthType	Basic
+AuthName	"Restricted Files"
+AuthUserFile	/home/qqc/qqc_userlist
+AuthGroupFile	/home/qqc/qqc_grouplist
+Require group	PROJECTNAME

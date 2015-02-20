@@ -1,0 +1,77 @@
+body
+{
+	background-color: #83a262;
+	color: black;
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:2%;
+}
+div.header
+{
+	background-color: #5C7145;
+	text-align: right;
+	padding: 1em;
+}
+div.howto
+{
+	background-color: #5C7145;
+	padding-top: 0.15em;
+	padding-bottom: 0.15em;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-top: 1em;
+}
+fieldset
+{
+	margin: 1em 0 1em 0;
+	padding: 1em;
+}
+legend
+{
+	font-size: 160%;
+}
+
+
+table.metadata th
+{
+	text-align: right;
+	vertical-align: top;
+	padding: 0.25em;
+}
+table.metadata td
+{
+	text-align: left;
+	padding: 0.25em;
+}
+
+table.results th
+{
+	text-align: left;
+}
+table.results td
+{
+}
+
+table.results tr.fixed td
+{
+	background: #A2B191;
+}
+table.results tr.unfixed td
+{
+	background: #708A54;
+}
+
+input, select, textarea
+{
+	background: silver;
+}
+input.checkbox
+{
+	width: 45px;
+	height: 30px;
+}
+
+img
+{
+	border: 0px;
+}
