@@ -46,8 +46,7 @@ You'll want to run QQC! in a virtualenv.
     virtualenv my_qqc
     cd my_qqc
     source bin/activate
-    pip install psycopg
-    # update the code to import psycopg2 as psycopg
+    pip install pgdb
     pip install paste
     ```
 
